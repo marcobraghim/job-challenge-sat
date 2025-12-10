@@ -1,0 +1,10 @@
+# EditorConfig ajuda a manter estilos de código consistentes para múltiplos
+# desenvolvedores trabalhando no mesmo projeto em vários editores e IDEs.
+# editorconfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+max_line_length = 120

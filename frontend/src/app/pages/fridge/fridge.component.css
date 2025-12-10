@@ -1,0 +1,86 @@
+.fridge-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #1976d2;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.create-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-btn:hover {
+  background-color: #218838;
+}
+
+.fridge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.fridge-table th,
+.fridge-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.fridge-table th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: 600;
+}
+
+.fridge-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.fridge-table button,
+.fridge-table a.edit-btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fridge-table .edit-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.fridge-table .edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.fridge-table button:last-child {
+  /* Delete button */
+  background-color: #dc3545;
+  color: white;
+}
+
+.fridge-table button:last-child:hover {
+  background-color: #c82333;
+}
