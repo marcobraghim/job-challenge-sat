@@ -1,5 +1,6 @@
 package br.restful_one.pedido.dto;
 
+import br.restful_one.pedido.controller.PedidoController;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Getter;
